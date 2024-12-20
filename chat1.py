@@ -219,7 +219,7 @@ query_start = time.time()
 
 
 # api_data.json 읽기
-with open(os.path.join(parent_dir, 'back', 'api_data.json'), 'r') as file:
+with open(os.path.join('./api_data.json'), 'r') as file:
     api_data = json.load(file)['api_data']
 
 # 하드코딩된 질문을 sys.argv에서 받아오도록 수정
