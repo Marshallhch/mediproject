@@ -73,7 +73,7 @@ def process_json_document(doc):
 
 # 데이터 파일 경로 설정
 data_paths = [
-    os.path.join(parent_dir, 'back', 'data.json')
+    os.path.join('./data.json')
 ]
 
 # JSON 파일 구조 확인
